@@ -1,5 +1,4 @@
 ## Comandos Linux
-
 sudo = Permissões especiais. <br/>
 sudo su = Obter privilégios de super usuário. <br/>
 cd "nome da pasta"= Navegar pelo sistema de arquivos. <br/>
@@ -24,7 +23,7 @@ chmod 777 -R "nome do arquivo/pasta" = O comando chmod serve para alterar as per
 ping / telnet = Testar comunicação. Comando baseado em protocolo, tem como princípios uma série de procedimentos e regras que são definidos para padronizar a comunicação. <br/>
  <br/>
 grep = Procura por trechos de texto (strings) dentro de arquivos ou diretórios [ grep "trecho a procurar" arquivo.txt ]. <br/>
-	telnet | grep 8000 <br/>
+	telnet | grep 8080 <br/>
 	ls | grep "trecho a procurar" <br/>
  <br/>
  <br/>
