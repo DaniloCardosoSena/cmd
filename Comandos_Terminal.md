@@ -32,8 +32,8 @@ git add . <br/>
 git commit -m"texto" <br/>
 git push <br/>
  <br/>
--c http.sslVerify=false = Desabilita verificação SSL.
+**-c http.sslVerify=false** = Desabilita verificação SSL. <br/>
 git -c http.sslVerify=false push <br/>
 git -c http.sslVerify=false clone <br/>
  <br/>
-git -c http.sslVerify=false clone https://git.com.br/caminho/do/repositorio.git
+git -c http.sslVerify=false clone https://git.com.br/caminho/do/repositorio.git <br/>
