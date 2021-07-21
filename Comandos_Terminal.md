@@ -18,7 +18,7 @@ cp /pasta/origem/arquivo1 /pasta/destino/ = Copia o arquivo1 e cola na pasta de 
 cp /pasta/origem/arquivo1 /pasta/destino/arquivo2 = Copia renomeando o arquivo1 para arquivo2. <br/>
 sudo cp -R /pasta/origem/arquivo1 /pasta/destino/ <br/>
  <br/>
-chmod 777 -R "nome do arquivo/pasta" = O comando chmod serve para alterar as permissões sobre determinado diretório ou arquivo(libera acesso para transferencia/cópia externa). Permissão 777 significa acesso total. Se um diretório tem permissão 777, qualquer usuário pode mexer naquele diretório,a todos os diretórios e arquivos a partir do raíz. <br/>
+chmod 777 -R "nome do arquivo/pasta" = O comando chmod serve para alterar as permissões sobre determinado diretório ou arquivo(libera acesso para transferencia/cópia externa). Permissão 777 significa acesso total. Se um diretório tem permissão 777, qualquer usuário pode mexer naquele diretório a todos os diretórios e arquivos a partir do raíz. <br/>
  <br/>
 ping / telnet = Testar comunicação. Comando baseado em protocolo, tem como princípios uma série de procedimentos e regras que são definidos para padronizar a comunicação. <br/>
  <br/>
