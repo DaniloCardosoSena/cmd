@@ -1,16 +1,16 @@
-### Comandos Linux
+## Comandos Linux
 
-sudo = Permissões especiais.
-sudo su = Obter privilégios de super usuário.
-cd "nome da pasta"= Navegar pelo sistema de arquivos.
-
-ls = Listagem de arquivos.
-ls -al = Listagem de todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc.
-dir = Listagem de arquivos.
-mkdir "nome da pasta" = Cria pasta no diretorio atual.
-clear = Limpar terminal.
-cls = Limpar terminal.
-
+sudo = Permissões especiais. <br/>
+sudo su = Obter privilégios de super usuário. <br/>
+cd "nome da pasta"= Navegar pelo sistema de arquivos. <br/>
+ <br/>
+ls = Listagem de arquivos. <br/>
+ls -al = Listagem de todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc. <br/>
+dir = Listagem de arquivos. <br/>
+mkdir "nome da pasta" = Cria pasta no diretorio atual. <br/>
+clear = Limpar terminal. <br/>
+cls = Limpar terminal. <br/>
+ <br/>
 cat "nome do arquivo" = Permite que você exiba arquivos no formato padrão de tela, lista conteúdos do arquivo.
 cat > /pasta/origem/arquivo.txt = Permite escrita dentro do arquivo.txt, Ctrl+D para finalizar e salvar.
 more "nome do arquivo" = ler arquivos de texto.
@@ -29,4 +29,4 @@ grep = Procura por trechos de texto (strings) dentro de arquivos ou diretórios 
 
 
 
-### Comandos Git
+## Comandos Git
