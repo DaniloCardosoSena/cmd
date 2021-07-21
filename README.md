@@ -1,1 +1,1 @@
-# cmd
+Comandos usuais via terminal.
