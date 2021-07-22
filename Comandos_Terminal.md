@@ -1,6 +1,7 @@
 ## Comandos Linux
 sudo = Permissões especiais. <br/>
 sudo su = Obter privilégios de super usuário. <br/>
+sudo yum install java-1.8.0-openjdk-devel <br/>
 sudo shutdown now = Comando sudo para desligar instancia linux. <br/>
 cd "nome da pasta"= Navegar pelo sistema de arquivos. <br/>
  <br/>
