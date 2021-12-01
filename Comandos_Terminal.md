@@ -39,3 +39,8 @@ git -c http.sslVerify=false push <br/>
 git -c http.sslVerify=false clone <br/>
  <br/>
 git -c http.sslVerify=false clone https://git.com.br/caminho/do/repositorio.git <br/>
+ <br/>
+ <br/>
+## Comandos Windows
+Abrir Executar (Win+R) ou Terminal Prompt <br/>
+**shutdown -s -t 3600** = Desliga windows após 3600 segundos (1h). <br/>
