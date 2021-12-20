@@ -5,6 +5,7 @@ sudo yum install java-1.8.0-openjdk-devel  = Installing OpenJDK 8 on Red Hat Ent
 sudo shutdown now = Comando sudo para desligar instancia linux. <br/>
 cd "nome da pasta"= Navegar pelo sistema de arquivos. <br/>
  <br/>
+pwd = exibe caminho/pasta atual (print working directory) <br/>
 ls = Listagem de arquivos. <br/>
 ls -al = Listagem de todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc. <br/>
 dir = Listagem de arquivos. <br/>
@@ -21,12 +22,15 @@ cp /pasta/origem/arquivo1 /pasta/destino/arquivo2 = Copia renomeando o arquivo1 
 sudo cp -R /pasta/origem/arquivo1 /pasta/destino/ <br/>
  <br/>
 chmod 777 -R "nome do arquivo/pasta" = O comando chmod serve para alterar as permissões sobre determinado diretório ou arquivo. A Permissão 777 significa acesso total. Se um diretório tem permissão 777, qualquer usuário pode mexer naquele diretório a todos os diretórios e arquivos a partir do raíz (libera acesso para transferencia/cópia externa). <br/>
+free -h = verifica memoria <br/>
 <br/>
 ping / telnet = Testar comunicação. Comando baseado em protocolo, tem como princípios uma série de procedimentos e regras que são definidos para padronizar a comunicação. <br/>
  <br/>
 grep = Procura por trechos de texto (strings) dentro de arquivos ou diretórios [ grep "trecho a procurar" arquivo.txt ]. <br/>
 	telnet | grep 8080 <br/>
 	ls | grep "trecho a procurar" <br/>
+	grep blue notepad.txt = busca blue dentro do arquivo .txt <br/>
+wget "seguido pelo link de download do arquivo" = baixar arquivos da internet <br/>
  <br/>
 ## Comandos Git
 git clone <br/>
