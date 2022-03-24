@@ -31,7 +31,7 @@ grep = Procura por trechos de texto (strings) dentro de arquivos ou diretórios 
 	ls | grep "trecho a procurar" <br/>
 	grep blue notepad.txt = busca blue dentro do arquivo .txt <br/>
 wget "seguido pelo link de download do arquivo" = baixar arquivos da internet <br/>
-cd "path" ; wget "path" = Executa os 2 comandos na sequencia.<br/>
+cd "path" ; wget "url" = (Separação por ponto e vírgula) Executa os 2 comandos na sequencia.<br/>
  <br/>
 ## Comandos Git
 git clone <br/>
