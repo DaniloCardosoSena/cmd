@@ -46,15 +46,14 @@ git -c http.sslVerify=false clone <br/>
 git -c http.sslVerify=false clone https://git.com.br/caminho/do/repositorio.git <br/>
  <br/>
  <br/>
+ 
 ## Comandos Windows
-### Abrir Executar (Win+R) ou Terminal Prompt <br/>
+
+### Abrir Executar (Win+R) ou Terminal Prompt:
 **shutdown -s -t 3600** = Desliga windows após 3600 segundos (1h). <br/>
 
 
-### Configuração MaxUserPort Rede de máquina Windows:
-
+### Configuração "MaxUserPort" Portas Rede:
 HKEY_ LOCAL_ MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\MaxUserPort<br/>
-
 Criar novo: DWORD<br/>
-
 VALUE DATA: 32768 DECIMAL<br/>
