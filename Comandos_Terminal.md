@@ -56,6 +56,7 @@ git -c http.sslVerify=false clone https://git.com.br/caminho/do/repositorio.git 
 ### Configuração "MaxUserPort" Portas Rede:
 HKEY_ LOCAL_ MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\MaxUserPort<br/>
 Criar novo: DWORD<br/>
+Name: maxuserport<br/>
 VALUE DATA: 32768 DECIMAL<br/>
 Ou<br/>
 VALUE DATA: 65534 DECIMAL<br/>
