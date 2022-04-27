@@ -59,6 +59,6 @@ ERRO: JMeter - java.net.bindexception: Address already in use connect<br/>
 HKEY_ LOCAL_ MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\MaxUserPort<br/>
 Criar novo: DWORD<br/>
 Name: maxuserport<br/>
-VALUE DATA: 65534 DECIMAL<br/>
+VALUE DATA: 64000 DECIMAL<br/>
 Ou<br/>
 VALUE DATA: 32768 DECIMAL<br/>
