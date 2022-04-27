@@ -62,3 +62,7 @@ Name: maxuserport<br/>
 VALUE DATA: 64000 DECIMAL<br/>
 Ou<br/>
 VALUE DATA: 32768 DECIMAL<br/>
+<br/>
+
+Máquina Windows: Limite 64000 decimal<br/>
+Máquina Linux: Limite 65000 decimal (Por padrão já é configurado automaticamente no SO Linux)<br/>
