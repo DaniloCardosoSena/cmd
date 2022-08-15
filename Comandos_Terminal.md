@@ -1,4 +1,6 @@
 ## Comandos Linux
+https://e-tinet.com/linux/5-comandos-diretorios-arquivos-linux/
+
 sudo = Permissões especiais. <br/>
 sudo su = Obter privilégios de super usuário. <br/>
 sudo yum install java-1.8.0-openjdk-devel  = Installing OpenJDK 8 on Red Hat Enterprise Linux.<br/>
@@ -10,6 +12,10 @@ ls = Listagem de arquivos. <br/>
 ls -al = Listagem de todos os arquivos e diretórios com informações detalhadas como permissões, tamanho, proprietário, etc. <br/>
 dir = Listagem de arquivos. <br/>
 mkdir "nome da pasta" = Cria pasta no diretorio atual. <br/>
+rmdir "nome da pasta" = Remove pasta no diretorio atual. <br/>
+rm "nome.txt" = Remove arquivo .txt
+mv "nome arquivo" "caminho novo diretório" = Move arquivos ou Renomeia (EX: # mv glances.conf.1 glances.conf = Renomeou arquivo "glances.conf.1" para "glances.conf") <br/>
+
 clear = Limpar terminal. <br/>
 cls = Limpar terminal. <br/>
  <br/>
