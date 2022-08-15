@@ -16,6 +16,7 @@ rmdir "nome da pasta" = Remove pasta no diretorio atual. <br/>
 rm "nome.txt" = Remove arquivo .txt
 mv "nome arquivo" "caminho novo diretório" = Move arquivos ou Renomeia (EX: # mv glances.conf.1 glances.conf = Renomeou arquivo "glances.conf.1" para "glances.conf") <br/>
 
+CTRL + L = Limpar terminal. <br/>
 clear = Limpar terminal. <br/>
 cls = Limpar terminal. <br/>
  <br/>
