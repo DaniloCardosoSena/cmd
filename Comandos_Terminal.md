@@ -15,6 +15,9 @@ mkdir "nome da pasta" = Cria pasta no diretorio atual. <br/>
 rmdir "nome da pasta" = Remove pasta no diretorio atual. <br/>
 rm "nome.txt" = Remove arquivo .txt
 mv "nome arquivo" "caminho novo diretório" = Move arquivos ou Renomeia (EX: # mv glances.conf.1 glances.conf = Renomeou arquivo "glances.conf.1" para "glances.conf") <br/>
+sudo apt-get autoremove = Apaga pacotes q não são mais utilizados pelo sistema, libera + espaço <br/>
+// vim/nano = abre editor de texto <br/>
+sudo nano /etc/telegraf/telegraf.d/my_config_telegraf.conf <br/>
 
 CTRL + L = Limpar terminal. <br/>
 clear = Limpar terminal. <br/>
@@ -54,6 +57,28 @@ git -c http.sslVerify=false clone <br/>
 git -c http.sslVerify=false clone https://git.com.br/caminho/do/repositorio.git <br/>
  <br/>
  <br/>
+ 
+### Ubuntu VM Linux:
+ ```
+# Virtual Box -> Config -> Rede -> Conectado a:"Placa em modo Bridge"
+
+sudo su
+sudo apt update
+sudo apt-get update
+
+sudo apt install net-tools
+sudo apt install firewalld
+sudo apt install openssh-server
+sudo service ssh start
+
+ifconfig
+
+# systemctl daemon-reload
+# systemctl status influxdb
+# systemctl status grafana-server
+# systemctl status telegraf
+# systemctl status glances
+ ```
  
 ## Comandos Windows
 
