@@ -44,21 +44,8 @@ wget "seguido pelo link de download do arquivo" = baixar arquivos da internet <b
 cd "path" ; wget "url" = (Separação por ponto e vírgula) Executa os 2 comandos na sequencia.<br/>
 cd /opt/yaman-jmeter/ ; mkdir massa ; chmod 777 -R massa<br/>
  <br/>
-## Comandos Git
-git clone <br/>
-git add . <br/>
-git commit -m"texto" <br/>
-git push <br/>
- <br/>
-**-c http.sslVerify=false** = Desabilita verificação SSL. <br/>
-git -c http.sslVerify=false push <br/>
-git -c http.sslVerify=false clone <br/>
- <br/>
-git -c http.sslVerify=false clone https://git.com.br/caminho/do/repositorio.git <br/>
- <br/>
- <br/>
  
-### Ubuntu VM Linux:
+ ### Ubuntu VM Linux:
  ```
 # Virtual Box -> Config -> Rede -> Conectado a:"Placa em modo Bridge"
 
@@ -79,6 +66,21 @@ ifconfig
 # systemctl status telegraf
 # systemctl status glances
  ```
+ <br/>
+ 
+## Comandos Git
+git clone <br/>
+git add . <br/>
+git commit -m"texto" <br/>
+git push <br/>
+ <br/>
+**-c http.sslVerify=false** = Desabilita verificação SSL. <br/>
+git -c http.sslVerify=false push <br/>
+git -c http.sslVerify=false clone <br/>
+ <br/>
+git -c http.sslVerify=false clone https://git.com.br/caminho/do/repositorio.git <br/>
+ <br/>
+ <br/>
  
 ## Comandos Windows
 
