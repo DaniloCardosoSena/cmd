@@ -65,6 +65,32 @@ ifconfig
 # systemctl status grafana-server
 # systemctl status telegraf
 # systemctl status glances
+
+
+Ubuntu Server - IP Fixo com Netplan
+Arquivo a ser criado: /etc/netplan/01-netcfg.yaml
+
+
+sudo nano /etc/netplan/01-netcfg.yaml
+
+# This file describes the network interfaces available on your system
+# For more information, see netplan(5).
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: no
+      dhcp6: no
+      addresses: [192.168.1.100/24]
+      gateway4: 192.168.1.1
+      nameservers:
+        addresses: [208.67.222.222,208.67.222.220]
+
+
+Ctrl + X (Sair)
+Y (Salvar)
+Enter
  ```
  <br/>
  
