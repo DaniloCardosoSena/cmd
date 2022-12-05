@@ -5,6 +5,7 @@ sudo = Permissões especiais. <br/>
 sudo su = Obter privilégios de super usuário. <br/>
 sudo yum install java-1.8.0-openjdk-devel  = Installing OpenJDK 8 on Red Hat Enterprise Linux.<br/>
 sudo shutdown now = Comando sudo para desligar instancia linux. <br/>
+sudo reboot = Comando sudo para reiniciar instancia linux. <br/>
 cd "nome da pasta"= Navegar pelo sistema de arquivos. <br/>
  <br/>
 pwd = exibe caminho/pasta atual (print working directory) <br/>
