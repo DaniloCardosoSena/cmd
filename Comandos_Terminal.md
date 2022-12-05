@@ -14,7 +14,7 @@ ls -al = Listagem de todos os arquivos e diretórios com informações detalhada
 dir = Listagem de arquivos. <br/>
 mkdir "nome da pasta" = Cria pasta no diretorio atual. <br/>
 rmdir "nome da pasta" = Remove pasta no diretorio atual. <br/>
-rm "nome.txt" = Remove arquivo .txt
+rm "nome.txt" = Remove arquivo .txt <br/>
 mv "nome arquivo" "caminho novo diretório" = Move arquivos ou Renomeia (EX: # mv glances.conf.1 glances.conf = Renomeou arquivo "glances.conf.1" para "glances.conf") <br/>
 sudo apt-get autoremove = Apaga pacotes q não são mais utilizados pelo sistema, libera + espaço <br/>
 // vim/nano = abre editor de texto <br/>
