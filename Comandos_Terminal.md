@@ -48,7 +48,8 @@ cd /opt/yaman-jmeter/ ; mkdir massa ; chmod 777 -R massa<br/>
  
  ### Ubuntu VM Linux:
  ```
-# Virtual Box -> Config -> Rede -> Conectado a:"Placa em modo Bridge"
+# Virtual Box 
+	Config -> Rede -> Conectado a:"Placa em modo Bridge"
 
 sudo su
 sudo apt update
