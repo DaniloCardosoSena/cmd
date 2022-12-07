@@ -50,6 +50,7 @@ cd /opt/yaman-jmeter/ ; mkdir massa ; chmod 777 -R massa<br/>
  ```
 # Virtual Box 
 	Config -> Rede -> Conectado a:"Placa em modo Bridge"
+	Config -> Geral -> Avançado -> Área Compartilhada, Arrastar e Soltar: "Bi-direcional"
 
 sudo su
 sudo apt update
