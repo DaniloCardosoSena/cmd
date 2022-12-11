@@ -99,7 +99,9 @@ network:
       nameservers:
         addresses: [208.67.222.222,208.67.222.220]
 
-Ctrl + X (Sair) 	->	Y (Salvar)	->	Enter	->	sudo netplan apply
+Ctrl + X (Sair) 	->	Y (Salvar)	->	Enter
+
+sudo netplan apply
  ```
  <br/>
  
