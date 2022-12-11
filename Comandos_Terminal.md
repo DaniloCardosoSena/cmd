@@ -69,11 +69,21 @@ ifconfig
 # systemctl status telegraf
 # systemctl status glances
 
+Para obter uma lista de todas as unidades de serviços carregadas na máquina Linux (Comando lista apenas as unidades ativas carregadas):
+	sudo systemctl list-units --type service
+
+Para ver as unidades carregadas, mas também inativas:
+	sudo systemctl list-units --type service --all
+
+Para ver todos os arquivos da unidade instalados, não apenas os carregados:
+	sudo systemctl list-unit-files
+
+
 
 Ubuntu Server - IP Fixo com Netplan
 Arquivo a ser criado: /etc/netplan/01-netcfg.yaml
 
-sudo nano /etc/netplan/01-netcfg.yaml
+	sudo nano /etc/netplan/01-netcfg.yaml
 
 # This file describes the network interfaces available on your system
 # For more information, see netplan(5).
@@ -89,11 +99,7 @@ network:
       nameservers:
         addresses: [208.67.222.222,208.67.222.220]
 
-Ctrl + X (Sair)
-Y (Salvar)
-Enter
-
-sudo netplan apply
+Ctrl + X (Sair) 	->	Y (Salvar)	->	Enter	->	sudo netplan apply
  ```
  <br/>
  
