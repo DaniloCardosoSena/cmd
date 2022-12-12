@@ -57,7 +57,7 @@ sudo apt update
 sudo apt-get update
 
 sudo apt install net-tools
-sudo apt install firewalld
+sudo apt install firewalld	(Necessário para serviço exemplo: Grafana)
 sudo apt install openssh-server
 sudo service ssh start
 
